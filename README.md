@@ -105,8 +105,6 @@ To analyze the performance of this application and observe how architectural cho
 
 **Include a screenshot of the "Widget Rebuild Stats" section from the "Performance" tab here.**
 
-![Performance Overlay Screenshot (Placeholder - Please replace with your actual screenshot from DevTools)](./devtools_performance_screenshot.png)
-
 ### Analysis of Architectural Choices for Performance
 
 Our architectural choices, particularly the use of `ValueNotifier` and `AnimatedBuilder`, directly contribute to keeping the UI and Raster threads green (i.e., preventing UI jank) by minimizing unnecessary widget rebuilds.
